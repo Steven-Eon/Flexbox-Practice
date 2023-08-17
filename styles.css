@@ -3,6 +3,7 @@
     font-size: 62.5%;
 }
 body {
+    background-color: #fefefe;
     overflow-y: hidden;
     height: 100vh;
     width: 100vw;
@@ -22,7 +23,7 @@ header {
     font-weight: bolder;
     background-color: #85047d;
     max-width: 100%;
-    min-height: 10%;
+    height: 10vh;
     align-items: center;
 }
 
@@ -32,7 +33,7 @@ footer {
     align-items: center;
     position: absolute;
     bottom: 0;
-    height: 5%;
+    height: 5vh;
     width: 100%;
     background-color: #ebebeb;
 }
@@ -63,10 +64,35 @@ footer {
 }
 
 .navBar p{
-    margin-block: 2em
+    margin-block: 1em
 }
 
 .cardContainer
 {
+    flex-wrap: wrap;
     flex: 4;
+}
+
+.card {
+    margin-left: 3rem;
+    margin-block: 3rem;
+    width: 20vw;
+    height: 50vh;
+    box-shadow: 0px 1px 10px black;
+    background-color: #ffffff;
+
+}
+
+.card > p {
+    word-wrap: break-word;
+    width: 80%;
+    height: 90%;
+    margin-inline: 1rem;
+    margin-top: 1rem;
+    font-size: 5%;
+    overflow-y: scroll;
+}
+
+.card > p::-webkit-scrollbar {
+    display: none;
 }
