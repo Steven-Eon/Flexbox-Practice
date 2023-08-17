@@ -1,0 +1,72 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+body {
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    margin-left: 1rem;
+    padding: 0
+}
+
+header {
+    font-size: 4rem;
+    color: white;
+    font-weight: bolder;
+    background-color: #85047d;
+    max-width: 100%;
+    min-height: 10%;
+    align-items: center;
+}
+
+
+footer {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexRow {
+    flex-direction: row;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.mainContainer {
+    height: 85vh;
+}
+
+
+.navBar {
+    flex: 1;
+    color: white;
+    height: 100%;
+    background-color: #4561de;
+    font-size: calc(0.2rem + 1vw);
+}
+
+.navBar p{
+    margin-block: 2em
+}
+
+.cardContainer
+{
+    flex: 4;
+}
